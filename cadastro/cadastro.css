@@ -6,6 +6,7 @@
 body {
     background: #ff5a5a;
 }
+
 /*Cabeçalho*/
 
 header {
@@ -81,7 +82,7 @@ a:hover{
     color: rgb(223, 108, 108);
 }
 
-.email {
+.name {
     margin-top: 5%;
 }
 
@@ -102,6 +103,10 @@ a:hover{
 
 .form-check-label {
     width: 120px !important;
+}
+
+.polit {
+ width: 180px !important;
 }
 
 .btn-danger {

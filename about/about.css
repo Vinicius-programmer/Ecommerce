@@ -3,21 +3,17 @@
     padding: 0;
 }
 
-body {
-    background: #ff5a5a;
-}
 /*Cabeçalho*/
 
 header {
     
     border-bottom: solid 1px rgb(223, 185, 185);
-    background: white;
 }
 
 .container-fluid {
     height: 160px;
     padding: 1% auto 1%;
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
 .row {
@@ -68,51 +64,38 @@ a:hover{
     text-decoration: underline;
 }
 
-/*Formulário*/
+/* Menu de navegação */
 
-.formulario {
-    background: white;
+.menu {
+    height: 80px;
 }
 
-.formulario label {
-    text-align: center;
+.btn:hover a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Conteúdo*/
+main {
     width: 100%;
-    font-family: "Roboto Slab", serif;
-    color: rgb(223, 108, 108);
 }
 
-.email {
-    margin-top: 5%;
+.container {
+    background-color: #ff5a5a;
 }
 
-.form-control {
-    width: 90%;
-    margin-left: 5%;
+.content h1 {
+    color: white;
 }
 
-#emailHelp {
-    text-align: center;
-    font-family: "Roboto Slab", serif;
-    color: rgb(223, 108, 108);
-}
-
-.form-check-input {
-    margin-left: 0 !important;
-}
-
-.form-check-label {
-    width: 120px !important;
-}
-
-.btn-danger {
-    display: block;
+.content p {
+    color: white;
 }
 
 /*Rodapé*/
 
 footer {
     background-color: rgb(189, 52, 52);
-    margin-top: 3%;
 }
 
 .foot {

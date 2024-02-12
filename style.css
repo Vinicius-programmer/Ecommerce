@@ -30,6 +30,7 @@ header {
     border-radius: 50%;
     height: 50px;
     width: 50px;
+    cursor: pointer;
 }
 
 .heart:hover {
@@ -40,6 +41,7 @@ header {
 .bag {
     height: 50px;
     width: 50px;
+    cursor: pointer;
 }
 
 .bag:hover {
@@ -78,15 +80,18 @@ a:hover{
 /*Produtos*/
 
 .box {
+    display: grid;
     background-color: white;
     height: 280px;
     border: solid 1px;  
     margin-top: 5px;
+    justify-content: center;
+    align-items: center;
 }
 
 .img1 {
     width: 100%;
-    height: 55%;
+    height: 120px;
     border-radius: 5%
 }
 
@@ -102,8 +107,39 @@ h3 {
 }
 
 .btn-danger {
-    text-align: start;
-    margin-bottom: 5%;
+    width: 130px;
+    height: 40px;
+}
+
+/*Menu lateral*/
+
+.menuOculto {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #ff5a5a;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 50px;
+}
+
+.menuOculto a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.btnFechar {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;    
 }
 
 /*Rodapé*/
